@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: #000;
+  border-radius: 50px;
+  color: #fff;
+  padding: 20px;
+  width: 333px;
+  height: 650px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.top img {
+  width: 70px;
+}
+
+.value {
+  font-size: 50px;
+  font-weight: 300;
+  display: flex;
+  justify-content: flex-end;
+  margin: 130px 13px 10px 0px;
+}
+
+.buttons-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 23% 23% 23% 23%;
+}
+
+.button {
+  align-items: center;
+  background-color: #505050;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  font-size: 25px;
+  height: 60px;
+  justify-content: center;
+  transition: filter 0.3s;
+  width: 60px;
+}
+
+.button.function {
+  color: #1c1c1c;
+  background-color: #d4d4d2;
+}
+
+.button.operator {
+  background-color: #ff9500;
+  font-size: 35px;
+}
+
+.button.number-0 {
+  border-radius: 55px;
+  grid-column: 1 / span 2;
+  justify-content: flex-start;
+  padding-left: 25px;
+  width: 140px;
+}
+
+.button.function:active {
+  background-color: #eeeeec;
+}
+
+.button.number-0:active,
+.button.number-1:active,
+.button.number-2:active,
+.button.number-3:active,
+.button.number-4:active,
+.button.number-5:active,
+.button.number-6:active,
+.button.number-7:active,
+.button.number-8:active,
+.button.number-9:active,
+.button.decimal:active {
+  background-color: #999999;
+}
+
+.button.equal:active {
+  background-color: #ffc16a;
+}
+
+.bottom {
+  width: 35%;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 10px;
+  left: 33%;
+  top: 50px;
+  position: relative;
+  bottom: 10px;
+}

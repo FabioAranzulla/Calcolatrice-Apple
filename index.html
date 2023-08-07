@@ -2,12 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Calcolatrice Apple</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main></main>
-    <script src="/script.js"></script>
+    <div class="calculator">
+      <div class="top">
+        <span class="time">
+          <span class="hours"></span>:<span class="minutes"></span>
+        </span>
+        <span><img src="/Calcolatrice-Apple/img/status.png" alt="" /></span>
+      </div>
+      <div class="value">0</div>
+      <div class="buttons-container">
+        <div class="button function ac">AC</div>
+        <div class="button function pm">+/-</div>
+        <div class="button function percent">%</div>
+        <div class="button operator division" id="division">&divide;</div>
+        <div class="button number-7">7</div>
+        <div class="button number-8">8</div>
+        <div class="button number-9">9</div>
+        <div class="button operator multiplication" id="multiplication">×</div>
+        <div class="button number-4">4</div>
+        <div class="button number-5">5</div>
+        <div class="button number-6">6</div>
+        <div class="button operator subtraction" id="subtraction">−</div>
+        <div class="button number-1">1</div>
+        <div class="button number-2">2</div>
+        <div class="button number-3">3</div>
+        <div class="button operator addition" id="addition">+</div>
+        <div class="button number-0">0</div>
+        <div class="button decimal">,</div>
+        <div class="button operator equal">=</div>
+      </div>
+      <div class="bottom"></div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
