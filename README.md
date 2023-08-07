@@ -1,5 +1,5 @@
 # Calcolatrice-Apple
-![screen](https://github.com/FabioAranzulla/Calcolatrice-Apple/assets/104132983/f6190c7b-02db-4b87-a9e0-c3eed674ea72)
+![screen](https://github.com/FabioAranzulla/Calcolatrice-Apple/assets/104132983/9b1c1bfa-161c-4be6-8877-92087a54ff4a)
 
 <b>Replica di Calcolatrice Apple</b><br>
 Una replica della calcolatrice classica di Apple, sviluppata utilizzando HTML, CSS e JavaScript.
